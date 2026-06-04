@@ -1,0 +1,23 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\Tools]
+"MUIVerb"="Tools"
+"subcommands"=""
+
+[HKEY_CLASSES_ROOT\*\shell\Tools\shell]
+
+[HKEY_CLASSES_ROOT\*\shell\Tools\shell\1 - HashCalc]
+"MUIVerb"="HashCalc"
+"Icon"="D:\\Programs\\HashCalc\\HashCalc.exe,0"
+"CommandFlags"=dword:00000040
+
+[HKEY_CLASSES_ROOT\*\shell\Tools\shell\1 - HashCalc\command]
+"DelegateExecute"="{FFA07888-75BD-471A-B325-59274E73400A}"
+
+[HKEY_CLASSES_ROOT\*\shell\Tools\shell\2 - MediaInfo]
+"MUIVerb"="MediaInfo"
+"Icon"="D:\\Programs\\\Media Info\\MediaInfo.exe,0"
+"AppliesTo"="System.Kind:=video"
+
+[HKEY_CLASSES_ROOT\*\shell\Tools\shell\2 - MediaInfo\command]
+"DelegateExecute"="{FFA07888-75BD-471A-B325-59274E73400A}"
