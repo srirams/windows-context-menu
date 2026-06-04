@@ -4,13 +4,19 @@
 
 Allows you to add custom items to the windows context menu. For example, an item called "resize" that displays on pictures to allow you to resize them.
 
-## Alternatives and Why
+## Why
 
 There used to be a program called "FastExplorer" that allowed adding custom context menu items, but it no longer works with Windows 11 (random Explorer crashes)
 
 You can add commands to the context menu using the registry ([docs](https://learn.microsoft.com/en-us/windows/win32/shell/context-menu-handlers#creating-static-cascading-menus)), but the drawback is that this method causes the command to be executed in parallel (eg if you select two files and execute your context menu item, explorer invokes your command twice, once for each item, instead of invoking the command once with the two files as arguments).
 
 The only working solution is to use the Windows API COM interface.
+
+## Alternatives
+
+* https://defaultprogramseditor.com/ (untested)
+
+* https://github.com/ikas-mc/ContextMenuForWindows11 (native windows 11 context menu items)
 
 ## How
 
