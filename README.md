@@ -28,3 +28,4 @@ The only working solution is to use the Windows API COM interface.
 ```
 
 * Edit the `execute.py` to suit your needs.
+* Edit the registry to add your custom item.
